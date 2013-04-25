@@ -11,13 +11,22 @@
     application.css is where you put your styles
   -->
   <link rel="stylesheet" href="/css/application.css">
-
+  <link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/js/application.js"></script>
 
-  <title></title>
+  <title>Blogger's Anonymouse</title>
 </head>
 <body>
+  <header>
+    <a id='title' href='/'>Blogger's Anonymous</a>
+    <nav>
+      <li><a href="https://github.com/SamSamskies"><img src="github.png"></a></li>
+    </nav>
+  </header>
   <%= yield %>
+  <footer>
+     Created by @SamSamskies DEVBOOTCAMP 2013 week 4 day 4 project
+  </footer>
 </body>
 </html>
