@@ -8,7 +8,60 @@
 .content {
   position: absolute;
   left: 200px;
-  top: 90px;
+  top: 160px;
+  width: 65ex;
+}
+
+#disclaimer {
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  width: 75ex;
+  font-size: 14px ;
+  font-style: italic;
+}
+
+
+.errors {
+  position: absolute;
+  left: 250px;
+  top: 550px;
+  width: 65ex;
+  color: red;
+  font-size: 40px;
+}
+
+.content h2 {
+  margin-bottom: 5px;
+}
+
+article {
+  padding: 0px 10px 20px 10px;
+  border: 5px solid #1a1a1a;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background-color: #f9f9d2;
+}
+
+article p {
+  line-height: 1.5em;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.tags {
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.tags a {
+  color: #edeceb;
+  text-decoration: none;
+  background-color: #3790e8;
+  border-radius: 2px;
+  padding: 2px;
 }
 
 th {
@@ -23,6 +76,13 @@ header {
   position: fixed;
   top: 0;
   height: 40px;
+  z-index: 1;
+  display: block;
+}
+
+#post_link {
+  line-height: 40px;
+  padding-left: 700px;
 }
 
 header a {
@@ -41,14 +101,21 @@ header a {
 
 nav {
   position: absolute;
-  left: 20px;
-  top: 70px;
-  border-right: 1px solid ;
+  left: 40px;
+  top: 80px;
+
 }
 
 nav a {
   text-decoration: none;
   color: black;
+}
+
+nav li {
+  list-style: none;
+  padding-top: 20px;
+  font-size: 20px;
+  font-style: bold;
 }
 
 footer {
@@ -63,6 +130,38 @@ footer {
   text-align: center;
   line-height: 12px;
 }
+
+form {
+  padding: 0px 10px 30px 10px;
+  border: 5px solid #1a1a1a;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background-color: #f9f9d2;
+}
+
+.item {
+  padding: 10px
+}
+
+#submit {
+  padding-left: 390px;
+}
+
+.submit {
+  width: 80px;
+}
+
+.input_text { 
+  width: 460px; 
+  height: 30px; 
+}
+
+
+textarea {
+  width: 460px;
+  height: 200px;
+}
+
 
 
 

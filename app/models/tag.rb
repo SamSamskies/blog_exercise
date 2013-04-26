@@ -1,3 +1,4 @@
 class Tag < ActiveRecord::Base
-  # Remember to create a migration!
+  validates :name, :presence => true
+  has_and_belongs_to_many :posts
 end
