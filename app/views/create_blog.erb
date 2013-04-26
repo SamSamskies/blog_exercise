@@ -1,0 +1,15 @@
+  <section class="content">
+  <form name="input" action="/blogs/create_blog" method="post">
+    <div class='item'>Title: <br><input class="input_text" type="text" name="title"></div> 
+    <div class='item'>Content: <br><textarea name="content"></textarea></div>
+    <div class='item'>Tags: <br><input class="input_text" id="post_tags" name="post[tags]"></div> 
+    <div id='submit'><input class="submit" type="submit" value="Post"></div>
+  </form>
+</section>
+<section class="errors">
+    <%if @post%>
+      <% @post.errors.full_messages.each do |error| %>
+        <div><%= error %></div>
+      <% end %>
+    <% end %>
+</section>
