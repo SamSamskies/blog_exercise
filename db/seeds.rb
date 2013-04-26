@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'faker'
 
 # 5.times do
@@ -6,6 +7,9 @@ require 'faker'
 tags = Tag.all
 
 Post.all.each { |post| post.tags << tags.sample }
+=======
+
+>>>>>>> d35a3a12c6278a68cae0c5a4f474ea377413cc95
 
 
 
